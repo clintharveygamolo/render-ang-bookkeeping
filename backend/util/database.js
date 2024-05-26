@@ -1,4 +1,6 @@
 import { Sequelize } from "sequelize";
+import dotenv from 'dotenv';
+dotenv.config();
 
 console.log("Connecting to database with the following details:");
 console.log("Database:", process.env.DATABASE_DB);
